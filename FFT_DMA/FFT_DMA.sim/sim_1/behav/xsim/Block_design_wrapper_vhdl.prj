@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../FFT_DMA.ip_user_files/bd/Block_design/ip/Block_design_axi_dma_0_1/sim/Block_design_axi_dma_0_1.vhd" \
+"../../../../FFT_DMA.ip_user_files/bd/Block_design/ip/Block_design_rst_ps7_0_50M_2/sim/Block_design_rst_ps7_0_50M_2.vhd" \
+"../../../../FFT_DMA.ip_user_files/bd/Block_design/ip/Block_design_xfft_0_0/sim/Block_design_xfft_0_0.vhd" \
+"../../../../FFT_DMA.ip_user_files/bd/Block_design/ip/Block_design_system_ila_0_0/bd_0/ip/ip_0/sim/bd_25ec_ila_lib_0.vhd" \
+"../../../../FFT_DMA.ip_user_files/bd/Block_design/ip/Block_design_system_ila_0_0/bd_0/sim/bd_25ec.vhd" \
+"../../../../FFT_DMA.ip_user_files/bd/Block_design/ip/Block_design_system_ila_0_0/sim/Block_design_system_ila_0_0.vhd" \
+"../../../../FFT_DMA.ip_user_files/bd/Block_design/sim/Block_design.vhd" \
+"../../../../FFT_DMA.gen/sources_1/bd/Block_design/hdl/Block_design_wrapper.vhd" \
+
+# Do not sort compile order
+nosort

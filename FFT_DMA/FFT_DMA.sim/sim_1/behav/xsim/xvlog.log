@@ -1,0 +1,20 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_Projects/FFT_DMA/FFT_DMA.ip_user_files/bd/Block_design/ip/Block_design_processing_system7_0_1/sim/Block_design_processing_system7_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Block_design_processing_system7_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_Projects/FFT_DMA/FFT_DMA.ip_user_files/bd/Block_design/ip/Block_design_auto_pc_0/sim/Block_design_auto_pc_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Block_design_auto_pc_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_Projects/FFT_DMA/FFT_DMA.ip_user_files/bd/Block_design/ip/Block_design_xbar_1/sim/Block_design_xbar_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Block_design_xbar_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_Projects/FFT_DMA/FFT_DMA.ip_user_files/bd/Block_design/ip/Block_design_auto_pc_1/sim/Block_design_auto_pc_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Block_design_auto_pc_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_Projects/FFT_DMA/FFT_DMA.ip_user_files/bd/Block_design/ip/Block_design_xlconcat_0_0/sim/Block_design_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Block_design_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_Projects/FFT_DMA/FFT_DMA.ip_user_files/bd/Block_design/ip/Block_design_xlconstant_0_0/sim/Block_design_xlconstant_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Block_design_xlconstant_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_Projects/FFT_DMA/FFT_DMA.ip_user_files/bd/Block_design/ip/Block_design_xlconstant_1_0/sim/Block_design_xlconstant_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Block_design_xlconstant_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_Projects/FFT_DMA/FFT_DMA.ip_user_files/bd/Block_design/ip/Block_design_system_ila_0_0/bd_0/ip/ip_1/bd_25ec_g_inst_0_gigantic_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_25ec_g_inst_0_gigantic_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_Projects/FFT_DMA/FFT_DMA.ip_user_files/bd/Block_design/ip/Block_design_system_ila_0_0/bd_0/ip/ip_1/sim/bd_25ec_g_inst_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_25ec_g_inst_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Vivado_Projects/FFT_DMA/FFT_DMA.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

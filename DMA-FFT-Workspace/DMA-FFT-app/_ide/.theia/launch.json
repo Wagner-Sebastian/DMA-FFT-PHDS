@@ -1,0 +1,54 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "tcf-debug",
+			"request": "launch",
+			"name": "DMA-FFT-app",
+			"debugType": "baremetal-zynq",
+			"attachToRunningTargetOptions": {
+				"targetSetupMode": "standalone",
+				"executeScript": true,
+				"scriptPath": ""
+			},
+			"autoAttachProcessChildren": false,
+			"target": {
+				"targetConnectionId": "Local",
+				"peersIniPath": "../../../.peers.ini",
+				"context": "zynq"
+			},
+			"targetSetup": {
+				"resetSystem": true,
+				"programDevice": true,
+				"resetAPU": false,
+				"bitstreamFile": "D:\\Vitis_Workspaces\\DMA-FFT-Workspace\\DMA-FFT-app\\_ide\\bitstream\\dma_fft_wrapper.bit",
+				"zynqInitialization": {
+					"isFsbl": false,
+					"usingFSBL": {
+						"initWithFSBL": true,
+						"fsblFile": "${workspaceFolder}\\DMA-FFT-noScatter\\export\\DMA-FFT-noScatter\\sw\\boot\\fsbl.elf",
+						"fsblExitSymbol": "FsblHandoffJtagExit"
+					},
+					"usingPs7Init": {
+						"runPs7Init": true,
+						"runPs7PostInit": true,
+						"ps7InitTclFile": "D:\\Vitis_Workspaces\\DMA-FFT-Workspace\\DMA-FFT-app\\_ide\\psinit\\ps7_init.tcl"
+					}
+				},
+				"downloadElf": [
+					{
+						"core": "ps7_cortexa9_0",
+						"resetProcessor": true,
+						"elfFile": "D:\\Vitis_Workspaces\\DMA-FFT-Workspace\\DMA-FFT-app\\build\\DMA-FFT-app.elf",
+						"stopAtEntry": false
+					}
+				],
+				"crossTriggerBreakpoints": {
+					"isSelected": false,
+					"breakpoints": []
+				}
+			},
+			"internalConsoleOptions": "openOnSessionStart"
+		}
+	]
+}

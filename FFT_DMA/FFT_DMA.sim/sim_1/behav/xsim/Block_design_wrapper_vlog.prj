@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../FFT_DMA.gen/sources_1/bd/Block_design/ipshared/ec67/hdl" --include "../../../../FFT_DMA.gen/sources_1/bd/Block_design/ipshared/6b2b/hdl" --include "D:/Xilinx/Vivado/2023.2/data/xilinx_vip/include" \
+"../../../../FFT_DMA.ip_user_files/bd/Block_design/ip/Block_design_processing_system7_0_1/sim/Block_design_processing_system7_0_1.v" \
+"../../../../FFT_DMA.ip_user_files/bd/Block_design/ip/Block_design_auto_pc_0/sim/Block_design_auto_pc_0.v" \
+"../../../../FFT_DMA.ip_user_files/bd/Block_design/ip/Block_design_xbar_1/sim/Block_design_xbar_1.v" \
+"../../../../FFT_DMA.ip_user_files/bd/Block_design/ip/Block_design_auto_pc_1/sim/Block_design_auto_pc_1.v" \
+"../../../../FFT_DMA.ip_user_files/bd/Block_design/ip/Block_design_xlconcat_0_0/sim/Block_design_xlconcat_0_0.v" \
+"../../../../FFT_DMA.ip_user_files/bd/Block_design/ip/Block_design_xlconstant_0_0/sim/Block_design_xlconstant_0_0.v" \
+"../../../../FFT_DMA.ip_user_files/bd/Block_design/ip/Block_design_xlconstant_1_0/sim/Block_design_xlconstant_1_0.v" \
+"../../../../FFT_DMA.ip_user_files/bd/Block_design/ip/Block_design_system_ila_0_0/bd_0/ip/ip_1/bd_25ec_g_inst_0_gigantic_mux.v" \
+"../../../../FFT_DMA.ip_user_files/bd/Block_design/ip/Block_design_system_ila_0_0/bd_0/ip/ip_1/sim/bd_25ec_g_inst_0.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
